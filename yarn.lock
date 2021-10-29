@@ -43,14 +43,7 @@
     core-js-pure "^3.16.0"
     regenerator-runtime "^0.13.4"
 
-"@babel/runtime@7.15.3":
-  version "7.15.3"
-  resolved "https://lovestfs.pkgs.visualstudio.com/_packaging/packages/npm/registry/@babel/runtime/-/runtime-7.15.3.tgz#2e1c2880ca118e5b2f9988322bd8a7656a32502b"
-  integrity sha1-LhwogMoRjlsvmYgyK9inZWoyUCs=
-  dependencies:
-    regenerator-runtime "^0.13.4"
-
-"@babel/runtime@^7.10.2", "@babel/runtime@^7.11.2":
+"@babel/runtime@7.15.4", "@babel/runtime@^7.10.2", "@babel/runtime@^7.11.2":
   version "7.15.4"
   resolved "https://lovestfs.pkgs.visualstudio.com/_packaging/packages/npm/registry/@babel/runtime/-/runtime-7.15.4.tgz#fd17d16bfdf878e6dd02d19753a39fa8a8d9c84a"
   integrity sha1-/RfRa/34eObdAtGXU6OfqKjZyEo=
@@ -119,10 +112,10 @@
   resolved "https://lovestfs.pkgs.visualstudio.com/_packaging/packages/npm/registry/@napi-rs/triples/-/triples-1.0.3.tgz#76d6d0c3f4d16013c61e45dfca5ff1e6c31ae53c"
   integrity sha1-dtbQw/TRYBPGHkXfyl/x5sMa5Tw=
 
-"@next/env@11.1.2":
-  version "11.1.2"
-  resolved "https://lovestfs.pkgs.visualstudio.com/_packaging/packages/npm/registry/@next/env/-/env-11.1.2.tgz#27996efbbc54c5f949f5e8c0a156e3aa48369b99"
-  integrity sha1-J5lu+7xUxflJ9ejAoVbjqkg2m5k=
+"@next/env@12.0.1":
+  version "12.0.1"
+  resolved "https://lovestfs.pkgs.visualstudio.com/_packaging/packages/npm/registry/@next/env/-/env-12.0.1.tgz#d57141ef1fe844f6f7c18cdaf29a712788c18ca4"
+  integrity sha1-1XFB7x/oRPb3wYza8ppxJ4jBjKQ=
 
 "@next/eslint-plugin-next@11.1.2":
   version "11.1.2"
@@ -131,15 +124,15 @@
   dependencies:
     glob "7.1.7"
 
-"@next/polyfill-module@11.1.2":
-  version "11.1.2"
-  resolved "https://lovestfs.pkgs.visualstudio.com/_packaging/packages/npm/registry/@next/polyfill-module/-/polyfill-module-11.1.2.tgz#1fe92c364fdc81add775a16c678f5057c6aace98"
-  integrity sha1-H+ksNk/cga3XdaFsZ49QV8aqzpg=
+"@next/polyfill-module@12.0.1":
+  version "12.0.1"
+  resolved "https://lovestfs.pkgs.visualstudio.com/_packaging/packages/npm/registry/@next/polyfill-module/-/polyfill-module-12.0.1.tgz#d20abf06f686ee7a8bd0d9056accfd0662f19e87"
+  integrity sha1-0gq/BvaG7nqL0NkFasz9BmLxnoc=
 
-"@next/react-dev-overlay@11.1.2":
-  version "11.1.2"
-  resolved "https://lovestfs.pkgs.visualstudio.com/_packaging/packages/npm/registry/@next/react-dev-overlay/-/react-dev-overlay-11.1.2.tgz#73795dc5454b7af168bac93df7099965ebb603be"
-  integrity sha1-c3ldxUVLevFousk99wmZZeu2A74=
+"@next/react-dev-overlay@12.0.1":
+  version "12.0.1"
+  resolved "https://lovestfs.pkgs.visualstudio.com/_packaging/packages/npm/registry/@next/react-dev-overlay/-/react-dev-overlay-12.0.1.tgz#134299ae44fad5a59448d5e671518074f37cba95"
+  integrity sha1-E0KZrkT61aWUSNXmcVGAdPN8upU=
   dependencies:
     "@babel/code-frame" "7.12.11"
     anser "1.4.9"
@@ -151,32 +144,67 @@
     shell-quote "1.7.2"
     source-map "0.8.0-beta.0"
     stacktrace-parser "0.1.10"
-    strip-ansi "6.0.0"
+    strip-ansi "6.0.1"
 
-"@next/react-refresh-utils@11.1.2":
-  version "11.1.2"
-  resolved "https://lovestfs.pkgs.visualstudio.com/_packaging/packages/npm/registry/@next/react-refresh-utils/-/react-refresh-utils-11.1.2.tgz#44ea40d8e773e4b77bad85e24f6ac041d5e4b4a5"
-  integrity sha1-ROpA2Odz5Ld7rYXiT2rAQdXktKU=
+"@next/react-refresh-utils@12.0.1":
+  version "12.0.1"
+  resolved "https://lovestfs.pkgs.visualstudio.com/_packaging/packages/npm/registry/@next/react-refresh-utils/-/react-refresh-utils-12.0.1.tgz#219be7a81696a7bd1e2d4ee397ca100eb8262f23"
+  integrity sha1-IZvnqBaWp70eLU7jl8oQDrgmLyM=
 
-"@next/swc-darwin-arm64@11.1.2":
-  version "11.1.2"
-  resolved "https://lovestfs.pkgs.visualstudio.com/_packaging/packages/npm/registry/@next/swc-darwin-arm64/-/swc-darwin-arm64-11.1.2.tgz#93226c38db488c4b62b30a53b530e87c969b8251"
-  integrity sha1-kyJsONtIjEtiswpTtTDofJabglE=
+"@next/swc-android-arm64@12.0.1":
+  version "12.0.1"
+  resolved "https://lovestfs.pkgs.visualstudio.com/_packaging/packages/npm/registry/@next/swc-android-arm64/-/swc-android-arm64-12.0.1.tgz#c776853e0911c12fcc69a69cd7ab111dff29f8d2"
+  integrity sha1-x3aFPgkRwS/Maaac16sRHf8p+NI=
 
-"@next/swc-darwin-x64@11.1.2":
-  version "11.1.2"
-  resolved "https://lovestfs.pkgs.visualstudio.com/_packaging/packages/npm/registry/@next/swc-darwin-x64/-/swc-darwin-x64-11.1.2.tgz#792003989f560c00677b5daeff360b35b510db83"
-  integrity sha1-eSADmJ9WDABne12u/zYLNbUQ24M=
+"@next/swc-darwin-arm64@12.0.1":
+  version "12.0.1"
+  resolved "https://lovestfs.pkgs.visualstudio.com/_packaging/packages/npm/registry/@next/swc-darwin-arm64/-/swc-darwin-arm64-12.0.1.tgz#bee9c5932511c993ab384ef9aedb86c02532d41e"
+  integrity sha1-vunFkyURyZOrOE75rtuGwCUy1B4=
 
-"@next/swc-linux-x64-gnu@11.1.2":
-  version "11.1.2"
-  resolved "https://lovestfs.pkgs.visualstudio.com/_packaging/packages/npm/registry/@next/swc-linux-x64-gnu/-/swc-linux-x64-gnu-11.1.2.tgz#8216b2ae1f21f0112958735c39dd861088108f37"
-  integrity sha1-ghayrh8h8BEpWHNcOd2GEIgQjzc=
+"@next/swc-darwin-x64@12.0.1":
+  version "12.0.1"
+  resolved "https://lovestfs.pkgs.visualstudio.com/_packaging/packages/npm/registry/@next/swc-darwin-x64/-/swc-darwin-x64-12.0.1.tgz#a0bdcbcf11b8b62190ec8e0406cecbbcc810b7fc"
+  integrity sha1-oL3LzxG4tiGQ7I4EBs7LvMgQt/w=
 
-"@next/swc-win32-x64-msvc@11.1.2":
-  version "11.1.2"
-  resolved "https://lovestfs.pkgs.visualstudio.com/_packaging/packages/npm/registry/@next/swc-win32-x64-msvc/-/swc-win32-x64-msvc-11.1.2.tgz#e15824405df137129918205e43cb5e9339589745"
-  integrity sha1-4VgkQF3xNxKZGCBeQ8tekzlYl0U=
+"@next/swc-linux-arm-gnueabihf@12.0.1":
+  version "12.0.1"
+  resolved "https://lovestfs.pkgs.visualstudio.com/_packaging/packages/npm/registry/@next/swc-linux-arm-gnueabihf/-/swc-linux-arm-gnueabihf-12.0.1.tgz#d0132637288f452ad5c6a6161e42aebcd4355f82"
+  integrity sha1-0BMmNyiPRSrVxqYWHkKuvNQ1X4I=
+
+"@next/swc-linux-arm64-gnu@12.0.1":
+  version "12.0.1"
+  resolved "https://lovestfs.pkgs.visualstudio.com/_packaging/packages/npm/registry/@next/swc-linux-arm64-gnu/-/swc-linux-arm64-gnu-12.0.1.tgz#6b310344b9bac7700eaff8f4c536540b1226e378"
+  integrity sha1-azEDRLm6x3AOr/j0xTZUCxIm43g=
+
+"@next/swc-linux-arm64-musl@12.0.1":
+  version "12.0.1"
+  resolved "https://lovestfs.pkgs.visualstudio.com/_packaging/packages/npm/registry/@next/swc-linux-arm64-musl/-/swc-linux-arm64-musl-12.0.1.tgz#8ab1fc81d18bbb70bb15bcc4250382257bba6298"
+  integrity sha1-irH8gdGLu3C7FbzEJQOCJXu6Ypg=
+
+"@next/swc-linux-x64-gnu@12.0.1":
+  version "12.0.1"
+  resolved "https://lovestfs.pkgs.visualstudio.com/_packaging/packages/npm/registry/@next/swc-linux-x64-gnu/-/swc-linux-x64-gnu-12.0.1.tgz#a664268aedec402da5df34efac1b337d9b0e492e"
+  integrity sha1-pmQmiu3sQC2l3zTvrBszfZsOSS4=
+
+"@next/swc-linux-x64-musl@12.0.1":
+  version "12.0.1"
+  resolved "https://lovestfs.pkgs.visualstudio.com/_packaging/packages/npm/registry/@next/swc-linux-x64-musl/-/swc-linux-x64-musl-12.0.1.tgz#4b7e5fee5a62adb6d9c9aad1a4aa00a6a09b53dc"
+  integrity sha1-S35f7lpirbbZyarRpKoApqCbU9w=
+
+"@next/swc-win32-arm64-msvc@12.0.1":
+  version "12.0.1"
+  resolved "https://lovestfs.pkgs.visualstudio.com/_packaging/packages/npm/registry/@next/swc-win32-arm64-msvc/-/swc-win32-arm64-msvc-12.0.1.tgz#9ff0c2a2f00f41d40bd44d6da195bdf649d807c6"
+  integrity sha1-n/DCovAPQdQL1E1toZW99knYB8Y=
+
+"@next/swc-win32-ia32-msvc@12.0.1":
+  version "12.0.1"
+  resolved "https://lovestfs.pkgs.visualstudio.com/_packaging/packages/npm/registry/@next/swc-win32-ia32-msvc/-/swc-win32-ia32-msvc-12.0.1.tgz#5a927ec832b184ce2e35f8ec668daa34175e47d0"
+  integrity sha1-WpJ+yDKxhM4uNfjsZo2qNBdeR9A=
+
+"@next/swc-win32-x64-msvc@12.0.1":
+  version "12.0.1"
+  resolved "https://lovestfs.pkgs.visualstudio.com/_packaging/packages/npm/registry/@next/swc-win32-x64-msvc/-/swc-win32-x64-msvc-12.0.1.tgz#fe145cf7baf79564159a87a545e430f96c835578"
+  integrity sha1-/hRc97r3lWQVmoelReQw+WyDVXg=
 
 "@node-rs/helper@1.2.1":
   version "1.2.1"
@@ -311,6 +339,16 @@ acorn-jsx@^5.3.1:
   resolved "https://lovestfs.pkgs.visualstudio.com/_packaging/packages/npm/registry/acorn-jsx/-/acorn-jsx-5.3.2.tgz#7ed5bb55908b3b2f1bc55c6af1653bada7f07937"
   integrity sha1-ftW7VZCLOy8bxVxq8WU7rafweTc=
 
+acorn@8.5.0:
+  version "8.5.0"
+  resolved "https://lovestfs.pkgs.visualstudio.com/_packaging/packages/npm/registry/acorn/-/acorn-8.5.0.tgz#4512ccb99b3698c752591e9bb4472e38ad43cee2"
+  integrity sha1-RRLMuZs2mMdSWR6btEcuOK1DzuI=
+
+acorn@^6.2.1:
+  version "6.4.2"
+  resolved "https://lovestfs.pkgs.visualstudio.com/_packaging/packages/npm/registry/acorn/-/acorn-6.4.2.tgz#35866fd710528e92de10cf06016498e47e39e1e6"
+  integrity sha1-NYZv1xBSjpLeEM8GAWSY5H454eY=
+
 acorn@^7.4.0:
   version "7.4.1"
   resolved "https://lovestfs.pkgs.visualstudio.com/_packaging/packages/npm/registry/acorn/-/acorn-7.4.1.tgz#feaed255973d2e77555b83dbc08851a6c63520fa"
@@ -346,7 +384,7 @@ ansi-colors@^4.1.1:
   resolved "https://lovestfs.pkgs.visualstudio.com/_packaging/packages/npm/registry/ansi-colors/-/ansi-colors-4.1.1.tgz#cbb9ae256bf750af1eab344f229aa27fe94ba348"
   integrity sha1-y7muJWv3UK8eqzRPIpqif+lLo0g=
 
-ansi-regex@^5.0.0, ansi-regex@^5.0.1:
+ansi-regex@^5.0.1:
   version "5.0.1"
   resolved "https://lovestfs.pkgs.visualstudio.com/_packaging/packages/npm/registry/ansi-regex/-/ansi-regex-5.0.1.tgz#082cb2c89c9fe8659a311a53bd6a4dc5301db304"
   integrity sha1-CCyyyJyf6GWaMRpTvWpNxTAdswQ=
@@ -442,23 +480,10 @@ assert@2.0.0:
     object-is "^1.0.1"
     util "^0.12.0"
 
-assert@^1.1.1:
-  version "1.5.0"
-  resolved "https://lovestfs.pkgs.visualstudio.com/_packaging/packages/npm/registry/assert/-/assert-1.5.0.tgz#55c109aaf6e0aefdb3dc4b71240c70bf574b18eb"
-  integrity sha1-VcEJqvbgrv2z3EtxJAxwv1dLGOs=
-  dependencies:
-    object-assign "^4.1.1"
-    util "0.10.3"
-
 ast-types-flow@^0.0.7:
   version "0.0.7"
   resolved "https://lovestfs.pkgs.visualstudio.com/_packaging/packages/npm/registry/ast-types-flow/-/ast-types-flow-0.0.7.tgz#f70b735c6bca1a5c9c22d982c3e39e7feba3bdad"
   integrity sha1-9wtzXGvKGlycItmCw+Oef+ujva0=
-
-ast-types@0.13.2:
-  version "0.13.2"
-  resolved "https://lovestfs.pkgs.visualstudio.com/_packaging/packages/npm/registry/ast-types/-/ast-types-0.13.2.tgz#df39b677a911a83f3a049644fb74fdded23cea48"
-  integrity sha1-3zm2d6kRqD86BJZE+3T93tI86kg=
 
 astral-regex@^2.0.0:
   version "2.0.0"
@@ -584,7 +609,7 @@ browserify-sign@^4.0.0:
     readable-stream "^3.6.0"
     safe-buffer "^5.2.0"
 
-browserify-zlib@0.2.0, browserify-zlib@^0.2.0:
+browserify-zlib@0.2.0:
   version "0.2.0"
   resolved "https://lovestfs.pkgs.visualstudio.com/_packaging/packages/npm/registry/browserify-zlib/-/browserify-zlib-0.2.0.tgz#2869459d9aa3be245fe8fe2ca1f46e2e7f54d73f"
   integrity sha1-KGlFnZqjviRf6P4sofRuLn9U1z8=
@@ -614,15 +639,6 @@ buffer@5.6.0:
   dependencies:
     base64-js "^1.0.2"
     ieee754 "^1.1.4"
-
-buffer@^4.3.0:
-  version "4.9.2"
-  resolved "https://lovestfs.pkgs.visualstudio.com/_packaging/packages/npm/registry/buffer/-/buffer-4.9.2.tgz#230ead344002988644841ab0244af8c44bbe3ef8"
-  integrity sha1-Iw6tNEACmIZEhBqwJEr4xEu+Pvg=
-  dependencies:
-    base64-js "^1.0.2"
-    ieee754 "^1.1.4"
-    isarray "^1.0.0"
 
 builtin-status-codes@^3.0.0:
   version "3.0.0"
@@ -769,12 +785,7 @@ concat-map@0.0.1:
   resolved "https://lovestfs.pkgs.visualstudio.com/_packaging/packages/npm/registry/concat-map/-/concat-map-0.0.1.tgz#d8a96bd77fd68df7793a73036a3ba0d5405d477b"
   integrity sha1-2Klr13/Wjfd5OnMDajug1UBdR3s=
 
-console-browserify@^1.1.0:
-  version "1.2.0"
-  resolved "https://lovestfs.pkgs.visualstudio.com/_packaging/packages/npm/registry/console-browserify/-/console-browserify-1.2.0.tgz#67063cef57ceb6cf4993a2ab3a55840ae8c49336"
-  integrity sha1-ZwY871fOts9Jk6KrOlWECujEkzY=
-
-constants-browserify@1.0.0, constants-browserify@^1.0.0:
+constants-browserify@1.0.0:
   version "1.0.0"
   resolved "https://lovestfs.pkgs.visualstudio.com/_packaging/packages/npm/registry/constants-browserify/-/constants-browserify-1.0.0.tgz#c20b96d8c617748aaf1c16021760cd27fcb8cb75"
   integrity sha1-wguW2MYXdIqvHBYCF2DNJ/y4y3U=
@@ -790,11 +801,6 @@ core-js-pure@^3.16.0:
   version "3.19.0"
   resolved "https://lovestfs.pkgs.visualstudio.com/_packaging/packages/npm/registry/core-js-pure/-/core-js-pure-3.19.0.tgz#db6fdadfdd4dc280ec93b64c3c2e8460e6f10094"
   integrity sha1-22/a391NwoDsk7ZMPC6EYObxAJQ=
-
-core-util-is@~1.0.0:
-  version "1.0.3"
-  resolved "https://lovestfs.pkgs.visualstudio.com/_packaging/packages/npm/registry/core-util-is/-/core-util-is-1.0.3.tgz#a6042d3634c2b27e9328f837b965fac83808db85"
-  integrity sha1-pgQtNjTCsn6TKPg3uWX6yDgI24U=
 
 create-ecdh@^4.0.0:
   version "4.0.4"
@@ -836,7 +842,7 @@ cross-spawn@^7.0.2:
     shebang-command "^2.0.0"
     which "^2.0.1"
 
-crypto-browserify@3.12.0, crypto-browserify@^3.11.0:
+crypto-browserify@3.12.0:
   version "3.12.0"
   resolved "https://lovestfs.pkgs.visualstudio.com/_packaging/packages/npm/registry/crypto-browserify/-/crypto-browserify-3.12.0.tgz#396cf9f3137f03e4b8e532c58f698254e00f80ec"
   integrity sha1-OWz58xN/A+S45TLFj2mCVOAPgOw=
@@ -974,11 +980,6 @@ domain-browser@4.19.0:
   version "4.19.0"
   resolved "https://lovestfs.pkgs.visualstudio.com/_packaging/packages/npm/registry/domain-browser/-/domain-browser-4.19.0.tgz#1093e17c0a17dbd521182fe90d49ac1370054af1"
   integrity sha1-EJPhfAoX29UhGC/pDUmsE3AFSvE=
-
-domain-browser@^1.1.1:
-  version "1.2.0"
-  resolved "https://lovestfs.pkgs.visualstudio.com/_packaging/packages/npm/registry/domain-browser/-/domain-browser-1.2.0.tgz#3d31f50191a6749dd1375a7f522e823d42e54eda"
-  integrity sha1-PTH1AZGmdJ3RN1p/Ui6CPULlTto=
 
 electron-to-chromium@^1.3.723:
   version "1.3.884"
@@ -1312,7 +1313,7 @@ etag@1.8.1:
   resolved "https://lovestfs.pkgs.visualstudio.com/_packaging/packages/npm/registry/etag/-/etag-1.8.1.tgz#41ae2eeb65efa62268aebfea83ac7d79299b0887"
   integrity sha1-Qa4u62XvpiJorr/qg6x9eSmbCIc=
 
-events@^3.0.0:
+events@3.3.0:
   version "3.3.0"
   resolved "https://lovestfs.pkgs.visualstudio.com/_packaging/packages/npm/registry/events/-/events-3.3.0.tgz#31a95ad0a924e2d2c419a813aeb2c4e878ea7400"
   integrity sha1-Mala0Kkk4tLEGagTrrLE6HjqdAA=
@@ -1631,7 +1632,7 @@ http2-wrapper@^1.0.0-beta.5.2:
     quick-lru "^5.1.1"
     resolve-alpn "^1.0.0"
 
-https-browserify@1.0.0, https-browserify@^1.0.0:
+https-browserify@1.0.0:
   version "1.0.0"
   resolved "https://lovestfs.pkgs.visualstudio.com/_packaging/packages/npm/registry/https-browserify/-/https-browserify-1.0.0.tgz#ec06c10e0a34c0f2faf199f7fd7fc78fffd03c73"
   integrity sha1-7AbBDgo0wPL68Zn3/X/Hj//QPHM=
@@ -1693,20 +1694,10 @@ inflight@^1.0.4:
     once "^1.3.0"
     wrappy "1"
 
-inherits@2, inherits@2.0.4, inherits@^2.0.1, inherits@^2.0.3, inherits@^2.0.4, inherits@~2.0.1, inherits@~2.0.3, inherits@~2.0.4:
+inherits@2, inherits@2.0.4, inherits@^2.0.1, inherits@^2.0.3, inherits@^2.0.4, inherits@~2.0.3, inherits@~2.0.4:
   version "2.0.4"
   resolved "https://lovestfs.pkgs.visualstudio.com/_packaging/packages/npm/registry/inherits/-/inherits-2.0.4.tgz#0fa2c64f932917c3433a0ded55363aae37416b7c"
   integrity sha1-D6LGT5MpF8NDOg3tVTY6rjdBa3w=
-
-inherits@2.0.1:
-  version "2.0.1"
-  resolved "https://lovestfs.pkgs.visualstudio.com/_packaging/packages/npm/registry/inherits/-/inherits-2.0.1.tgz#b17d08d326b4423e568eff719f91b0b1cbdf69f1"
-  integrity sha1-sX0I0ya0Qj5Wjv9xn5GwscvfafE=
-
-inherits@2.0.3:
-  version "2.0.3"
-  resolved "https://lovestfs.pkgs.visualstudio.com/_packaging/packages/npm/registry/inherits/-/inherits-2.0.3.tgz#633c2c83e3da42a502f52466022480f4208261de"
-  integrity sha1-Yzwsg+PaQqUC9SRmAiSA9CCCYd4=
 
 internal-slot@^1.0.3:
   version "1.0.3"
@@ -1860,11 +1851,6 @@ is-weakref@^1.0.1:
   dependencies:
     call-bind "^1.0.0"
 
-isarray@^1.0.0, isarray@~1.0.0:
-  version "1.0.0"
-  resolved "https://lovestfs.pkgs.visualstudio.com/_packaging/packages/npm/registry/isarray/-/isarray-1.0.0.tgz#bb935d48582cba168c06834957a54a3e07124f11"
-  integrity sha1-u5NdSFgsuhaMBoNJV6VKPgcSTxE=
-
 isexe@^2.0.0:
   version "2.0.0"
   resolved "https://lovestfs.pkgs.visualstudio.com/_packaging/packages/npm/registry/isexe/-/isexe-2.0.0.tgz#e8fbf374dc556ff8947a10dcb0572d633f2cfa10"
@@ -1896,11 +1882,6 @@ json-buffer@3.0.1:
   version "3.0.1"
   resolved "https://lovestfs.pkgs.visualstudio.com/_packaging/packages/npm/registry/json-buffer/-/json-buffer-3.0.1.tgz#9338802a30d3b6605fbe0613e094008ca8c05a13"
   integrity sha1-kziAKjDTtmBfvgYT4JQAjKjAWhM=
-
-json-loader@^0.5.7:
-  version "0.5.7"
-  resolved "https://lovestfs.pkgs.visualstudio.com/_packaging/packages/npm/registry/json-loader/-/json-loader-0.5.7.tgz#dca14a70235ff82f0ac9a3abeb60d337a365185d"
-  integrity sha1-3KFKcCNf+C8KyaOr62DTN6NlGF0=
 
 json-schema-traverse@^0.4.1:
   version "0.4.1"
@@ -2121,32 +2102,30 @@ nanoid@^3.1.23:
   resolved "https://lovestfs.pkgs.visualstudio.com/_packaging/packages/npm/registry/nanoid/-/nanoid-3.1.30.tgz#63f93cc548d2a113dc5dfbc63bfa09e2b9b64362"
   integrity sha1-Y/k8xUjSoRPcXfvGO/oJ4rm2Q2I=
 
-native-url@0.3.4:
-  version "0.3.4"
-  resolved "https://lovestfs.pkgs.visualstudio.com/_packaging/packages/npm/registry/native-url/-/native-url-0.3.4.tgz#29c943172aed86c63cee62c8c04db7f5756661f8"
-  integrity sha1-KclDFyrthsY87mLIwE239XVmYfg=
-  dependencies:
-    querystring "^0.2.0"
-
 natural-compare@^1.4.0:
   version "1.4.0"
   resolved "https://lovestfs.pkgs.visualstudio.com/_packaging/packages/npm/registry/natural-compare/-/natural-compare-1.4.0.tgz#4abebfeed7541f2c27acfb29bdbbd15c8d5ba4f7"
   integrity sha1-Sr6/7tdUHywnrPspvbvRXI1bpPc=
 
-next@11.1.2:
-  version "11.1.2"
-  resolved "https://lovestfs.pkgs.visualstudio.com/_packaging/packages/npm/registry/next/-/next-11.1.2.tgz#527475787a9a362f1bc916962b0c0655cc05bc91"
-  integrity sha1-UnR1eHqaNi8byRaWKwwGVcwFvJE=
+neo-async@^2.6.1:
+  version "2.6.2"
+  resolved "https://lovestfs.pkgs.visualstudio.com/_packaging/packages/npm/registry/neo-async/-/neo-async-2.6.2.tgz#b4aafb93e3aeb2d8174ca53cf163ab7d7308305f"
+  integrity sha1-tKr7k+OustgXTKU88WOrfXMIMF8=
+
+next@^12.0.1:
+  version "12.0.1"
+  resolved "https://lovestfs.pkgs.visualstudio.com/_packaging/packages/npm/registry/next/-/next-12.0.1.tgz#7b82a73bc185bfda7372e7e8309f9b38e6be9cb0"
+  integrity sha1-e4KnO8GFv9pzcufoMJ+bOOa+nLA=
   dependencies:
-    "@babel/runtime" "7.15.3"
+    "@babel/runtime" "7.15.4"
     "@hapi/accept" "5.0.2"
-    "@next/env" "11.1.2"
-    "@next/polyfill-module" "11.1.2"
-    "@next/react-dev-overlay" "11.1.2"
-    "@next/react-refresh-utils" "11.1.2"
+    "@next/env" "12.0.1"
+    "@next/polyfill-module" "12.0.1"
+    "@next/react-dev-overlay" "12.0.1"
+    "@next/react-refresh-utils" "12.0.1"
     "@node-rs/helper" "1.2.1"
+    acorn "8.5.0"
     assert "2.0.0"
-    ast-types "0.13.2"
     browserify-zlib "0.2.0"
     browserslist "4.16.6"
     buffer "5.6.0"
@@ -2159,40 +2138,48 @@ next@11.1.2:
     domain-browser "4.19.0"
     encoding "0.1.13"
     etag "1.8.1"
+    events "3.3.0"
     find-cache-dir "3.3.1"
     get-orientation "1.1.2"
     https-browserify "1.0.0"
     image-size "1.0.0"
     jest-worker "27.0.0-next.5"
-    native-url "0.3.4"
     node-fetch "2.6.1"
     node-html-parser "1.4.9"
-    node-libs-browser "^2.2.1"
     os-browserify "0.3.0"
     p-limit "3.1.0"
     path-browserify "1.0.1"
-    pnp-webpack-plugin "1.6.4"
     postcss "8.2.15"
     process "0.11.10"
     querystring-es3 "0.2.1"
     raw-body "2.4.1"
     react-is "17.0.2"
     react-refresh "0.8.3"
+    react-server-dom-webpack "0.0.0-experimental-3c4c1c470-20211021"
+    regenerator-runtime "0.13.4"
     stream-browserify "3.0.0"
     stream-http "3.1.1"
     string_decoder "1.3.0"
-    styled-jsx "4.0.1"
+    styled-jsx "5.0.0-beta.3"
     timers-browserify "2.0.12"
     tty-browserify "0.0.1"
     use-subscription "1.5.1"
     util "0.12.4"
     vm-browserify "1.1.2"
     watchpack "2.1.1"
+    web-streams-polyfill "3.0.3"
   optionalDependencies:
-    "@next/swc-darwin-arm64" "11.1.2"
-    "@next/swc-darwin-x64" "11.1.2"
-    "@next/swc-linux-x64-gnu" "11.1.2"
-    "@next/swc-win32-x64-msvc" "11.1.2"
+    "@next/swc-android-arm64" "12.0.1"
+    "@next/swc-darwin-arm64" "12.0.1"
+    "@next/swc-darwin-x64" "12.0.1"
+    "@next/swc-linux-arm-gnueabihf" "12.0.1"
+    "@next/swc-linux-arm64-gnu" "12.0.1"
+    "@next/swc-linux-arm64-musl" "12.0.1"
+    "@next/swc-linux-x64-gnu" "12.0.1"
+    "@next/swc-linux-x64-musl" "12.0.1"
+    "@next/swc-win32-arm64-msvc" "12.0.1"
+    "@next/swc-win32-ia32-msvc" "12.0.1"
+    "@next/swc-win32-x64-msvc" "12.0.1"
 
 node-fetch@2.6.1:
   version "2.6.1"
@@ -2205,35 +2192,6 @@ node-html-parser@1.4.9:
   integrity sha1-PI9srEZHn65YAHJe21Mumuj9gWw=
   dependencies:
     he "1.2.0"
-
-node-libs-browser@^2.2.1:
-  version "2.2.1"
-  resolved "https://lovestfs.pkgs.visualstudio.com/_packaging/packages/npm/registry/node-libs-browser/-/node-libs-browser-2.2.1.tgz#b64f513d18338625f90346d27b0d235e631f6425"
-  integrity sha1-tk9RPRgzhiX5A0bSew0jXmMfZCU=
-  dependencies:
-    assert "^1.1.1"
-    browserify-zlib "^0.2.0"
-    buffer "^4.3.0"
-    console-browserify "^1.1.0"
-    constants-browserify "^1.0.0"
-    crypto-browserify "^3.11.0"
-    domain-browser "^1.1.1"
-    events "^3.0.0"
-    https-browserify "^1.0.0"
-    os-browserify "^0.3.0"
-    path-browserify "0.0.1"
-    process "^0.11.10"
-    punycode "^1.2.4"
-    querystring-es3 "^0.2.0"
-    readable-stream "^2.3.3"
-    stream-browserify "^2.0.1"
-    stream-http "^2.7.2"
-    string_decoder "^1.0.0"
-    timers-browserify "^2.0.4"
-    tty-browserify "0.0.0"
-    url "^0.11.0"
-    util "^0.11.0"
-    vm-browserify "^1.0.1"
 
 node-releases@^1.1.71:
   version "1.1.77"
@@ -2337,7 +2295,7 @@ optionator@^0.9.1:
     type-check "^0.4.0"
     word-wrap "^1.2.3"
 
-os-browserify@0.3.0, os-browserify@^0.3.0:
+os-browserify@0.3.0:
   version "0.3.0"
   resolved "https://lovestfs.pkgs.visualstudio.com/_packaging/packages/npm/registry/os-browserify/-/os-browserify-0.3.0.tgz#854373c7f5c2315914fc9bfc6bd8238fdda1ec27"
   integrity sha1-hUNzx/XCMVkU/Jv8a9gjj92h7Cc=
@@ -2415,11 +2373,6 @@ parse-asn1@^5.0.0, parse-asn1@^5.1.5:
     pbkdf2 "^3.0.3"
     safe-buffer "^5.1.1"
 
-path-browserify@0.0.1:
-  version "0.0.1"
-  resolved "https://lovestfs.pkgs.visualstudio.com/_packaging/packages/npm/registry/path-browserify/-/path-browserify-0.0.1.tgz#e6c4ddd7ed3aa27c68a20cc4e50e1a4ee83bbc4a"
-  integrity sha1-5sTd1+06onxoogzE5Q4aTug7vEo=
-
 path-browserify@1.0.1:
   version "1.0.1"
   resolved "https://lovestfs.pkgs.visualstudio.com/_packaging/packages/npm/registry/path-browserify/-/path-browserify-1.0.1.tgz#d98454a9c3753d5790860f16f68867b9e46be1fd"
@@ -2490,13 +2443,6 @@ platform@1.3.6:
   resolved "https://lovestfs.pkgs.visualstudio.com/_packaging/packages/npm/registry/platform/-/platform-1.3.6.tgz#48b4ce983164b209c2d45a107adb31f473a6e7a7"
   integrity sha1-SLTOmDFksgnC1FoQetsx9HOm56c=
 
-pnp-webpack-plugin@1.6.4:
-  version "1.6.4"
-  resolved "https://lovestfs.pkgs.visualstudio.com/_packaging/packages/npm/registry/pnp-webpack-plugin/-/pnp-webpack-plugin-1.6.4.tgz#c9711ac4dc48a685dabafc86f8b6dd9f8df84149"
-  integrity sha1-yXEaxNxIpoXauvyG+Lbdn434QUk=
-  dependencies:
-    ts-pnp "^1.1.6"
-
 postcss@8.2.15:
   version "8.2.15"
   resolved "https://lovestfs.pkgs.visualstudio.com/_packaging/packages/npm/registry/postcss/-/postcss-8.2.15.tgz#9e66ccf07292817d226fc315cbbf9bc148fbca65"
@@ -2511,12 +2457,7 @@ prelude-ls@^1.2.1:
   resolved "https://lovestfs.pkgs.visualstudio.com/_packaging/packages/npm/registry/prelude-ls/-/prelude-ls-1.2.1.tgz#debc6489d7a6e6b0e7611888cec880337d316396"
   integrity sha1-3rxkidem5rDnYRiIzsiAM30xY5Y=
 
-process-nextick-args@~2.0.0:
-  version "2.0.1"
-  resolved "https://lovestfs.pkgs.visualstudio.com/_packaging/packages/npm/registry/process-nextick-args/-/process-nextick-args-2.0.1.tgz#7820d9b16120cc55ca9ae7792680ae7dba6d7fe2"
-  integrity sha1-eCDZsWEgzFXKmud5JoCufbptf+I=
-
-process@0.11.10, process@^0.11.10:
+process@0.11.10:
   version "0.11.10"
   resolved "https://lovestfs.pkgs.visualstudio.com/_packaging/packages/npm/registry/process/-/process-0.11.10.tgz#7332300e840161bda3e69a1d1d91a7d4bc16f182"
   integrity sha1-czIwDoQBYb2j5podHZGn1LwW8YI=
@@ -2555,35 +2496,15 @@ pump@^3.0.0:
     end-of-stream "^1.1.0"
     once "^1.3.1"
 
-punycode@1.3.2:
-  version "1.3.2"
-  resolved "https://lovestfs.pkgs.visualstudio.com/_packaging/packages/npm/registry/punycode/-/punycode-1.3.2.tgz#9653a036fb7c1ee42342f2325cceefea3926c48d"
-  integrity sha1-llOgNvt8HuQjQvIyXM7v6jkmxI0=
-
-punycode@^1.2.4:
-  version "1.4.1"
-  resolved "https://lovestfs.pkgs.visualstudio.com/_packaging/packages/npm/registry/punycode/-/punycode-1.4.1.tgz#c0d5a63b2718800ad8e1eb0fa5269c84dd41845e"
-  integrity sha1-wNWmOycYgArY4esPpSachN1BhF4=
-
 punycode@^2.1.0:
   version "2.1.1"
   resolved "https://lovestfs.pkgs.visualstudio.com/_packaging/packages/npm/registry/punycode/-/punycode-2.1.1.tgz#b58b010ac40c22c5657616c8d2c2c02c7bf479ec"
   integrity sha1-tYsBCsQMIsVldhbI0sLALHv0eew=
 
-querystring-es3@0.2.1, querystring-es3@^0.2.0:
+querystring-es3@0.2.1:
   version "0.2.1"
   resolved "https://lovestfs.pkgs.visualstudio.com/_packaging/packages/npm/registry/querystring-es3/-/querystring-es3-0.2.1.tgz#9ec61f79049875707d69414596fd907a4d711e73"
   integrity sha1-nsYfeQSYdXB9aUFFlv2Qek1xHnM=
-
-querystring@0.2.0:
-  version "0.2.0"
-  resolved "https://lovestfs.pkgs.visualstudio.com/_packaging/packages/npm/registry/querystring/-/querystring-0.2.0.tgz#b209849203bb25df820da756e747005878521620"
-  integrity sha1-sgmEkgO7Jd+CDadW50cAWHhSFiA=
-
-querystring@^0.2.0:
-  version "0.2.1"
-  resolved "https://lovestfs.pkgs.visualstudio.com/_packaging/packages/npm/registry/querystring/-/querystring-0.2.1.tgz#40d77615bb09d16902a85c3e38aa8b5ed761c2dd"
-  integrity sha1-QNd2FbsJ0WkCqFw+OKqLXtdhwt0=
 
 queue-microtask@^1.2.2:
   version "1.2.3"
@@ -2651,6 +2572,16 @@ react-refresh@0.8.3:
   resolved "https://lovestfs.pkgs.visualstudio.com/_packaging/packages/npm/registry/react-refresh/-/react-refresh-0.8.3.tgz#721d4657672d400c5e3c75d063c4a85fb2d5d68f"
   integrity sha1-ch1GV2ctQAxePHXQY8SoX7LV1o8=
 
+react-server-dom-webpack@0.0.0-experimental-3c4c1c470-20211021:
+  version "0.0.0-experimental-3c4c1c470-20211021"
+  resolved "https://lovestfs.pkgs.visualstudio.com/_packaging/packages/npm/registry/react-server-dom-webpack/-/react-server-dom-webpack-0.0.0-experimental-3c4c1c470-20211021.tgz#cdcaa2f19c8d820c1f4d31252319fb05e2de0e88"
+  integrity sha1-zcqi8ZyNggwfTTElIxn7BeLeDog=
+  dependencies:
+    acorn "^6.2.1"
+    loose-envify "^1.1.0"
+    neo-async "^2.6.1"
+    object-assign "^4.1.1"
+
 react@17.0.2:
   version "17.0.2"
   resolved "https://lovestfs.pkgs.visualstudio.com/_packaging/packages/npm/registry/react/-/react-17.0.2.tgz#d0b5cc516d29eb3eee383f75b62864cfb6800037"
@@ -2658,19 +2589,6 @@ react@17.0.2:
   dependencies:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"
-
-readable-stream@^2.0.2, readable-stream@^2.3.3, readable-stream@^2.3.6:
-  version "2.3.7"
-  resolved "https://lovestfs.pkgs.visualstudio.com/_packaging/packages/npm/registry/readable-stream/-/readable-stream-2.3.7.tgz#1eca1cf711aef814c04f62252a36a62f6cb23b57"
-  integrity sha1-Hsoc9xGu+BTAT2IlKjamL2yyO1c=
-  dependencies:
-    core-util-is "~1.0.0"
-    inherits "~2.0.3"
-    isarray "~1.0.0"
-    process-nextick-args "~2.0.0"
-    safe-buffer "~5.1.1"
-    string_decoder "~1.1.1"
-    util-deprecate "~1.0.1"
 
 readable-stream@^3.5.0, readable-stream@^3.6.0:
   version "3.6.0"
@@ -2687,6 +2605,11 @@ readdirp@~3.5.0:
   integrity sha1-m6dMAZsV02UnjS6Ru4xI17TULJ4=
   dependencies:
     picomatch "^2.2.1"
+
+regenerator-runtime@0.13.4:
+  version "0.13.4"
+  resolved "https://lovestfs.pkgs.visualstudio.com/_packaging/packages/npm/registry/regenerator-runtime/-/regenerator-runtime-0.13.4.tgz#e96bf612a3362d12bb69f7e8f74ffeab25c7ac91"
+  integrity sha1-6Wv2EqM2LRK7affo90/+qyXHrJE=
 
 regenerator-runtime@^0.13.4:
   version "0.13.9"
@@ -2776,7 +2699,7 @@ safe-buffer@^5.0.1, safe-buffer@^5.1.0, safe-buffer@^5.1.1, safe-buffer@^5.1.2, 
   resolved "https://lovestfs.pkgs.visualstudio.com/_packaging/packages/npm/registry/safe-buffer/-/safe-buffer-5.2.1.tgz#1eaf9fa9bdb1fdd4ec75f58f9cdb4e6b7827eec6"
   integrity sha1-Hq+fqb2x/dTsdfWPnNtOa3gn7sY=
 
-safe-buffer@~5.1.0, safe-buffer@~5.1.1:
+safe-buffer@~5.1.1:
   version "5.1.2"
   resolved "https://lovestfs.pkgs.visualstudio.com/_packaging/packages/npm/registry/safe-buffer/-/safe-buffer-5.1.2.tgz#991ec69d296e0313747d59bdfd2b745c35f8828d"
   integrity sha1-mR7GnSluAxN0fVm9/St0XDX4go0=
@@ -2906,14 +2829,6 @@ stream-browserify@3.0.0:
     inherits "~2.0.4"
     readable-stream "^3.5.0"
 
-stream-browserify@^2.0.1:
-  version "2.0.2"
-  resolved "https://lovestfs.pkgs.visualstudio.com/_packaging/packages/npm/registry/stream-browserify/-/stream-browserify-2.0.2.tgz#87521d38a44aa7ee91ce1cd2a47df0cb49dd660b"
-  integrity sha1-h1IdOKRKp+6RzhzSpH3wy0ndZgs=
-  dependencies:
-    inherits "~2.0.1"
-    readable-stream "^2.0.2"
-
 stream-http@3.1.1:
   version "3.1.1"
   resolved "https://lovestfs.pkgs.visualstudio.com/_packaging/packages/npm/registry/stream-http/-/stream-http-3.1.1.tgz#0370a8017cf8d050b9a8554afe608f043eaff564"
@@ -2923,17 +2838,6 @@ stream-http@3.1.1:
     inherits "^2.0.4"
     readable-stream "^3.6.0"
     xtend "^4.0.2"
-
-stream-http@^2.7.2:
-  version "2.8.3"
-  resolved "https://lovestfs.pkgs.visualstudio.com/_packaging/packages/npm/registry/stream-http/-/stream-http-2.8.3.tgz#b2d242469288a5a27ec4fe8933acf623de6514fc"
-  integrity sha1-stJCRpKIpaJ+xP6JM6z2I95lFPw=
-  dependencies:
-    builtin-status-codes "^3.0.0"
-    inherits "^2.0.1"
-    readable-stream "^2.3.6"
-    to-arraybuffer "^1.0.0"
-    xtend "^4.0.0"
 
 stream-parser@^0.3.1:
   version "0.3.1"
@@ -2986,28 +2890,14 @@ string.prototype.trimstart@^1.0.4:
     call-bind "^1.0.2"
     define-properties "^1.1.3"
 
-string_decoder@1.3.0, string_decoder@^1.0.0, string_decoder@^1.1.1:
+string_decoder@1.3.0, string_decoder@^1.1.1:
   version "1.3.0"
   resolved "https://lovestfs.pkgs.visualstudio.com/_packaging/packages/npm/registry/string_decoder/-/string_decoder-1.3.0.tgz#42f114594a46cf1a8e30b0a84f56c78c3edac21e"
   integrity sha1-QvEUWUpGzxqOMLCoT1bHjD7awh4=
   dependencies:
     safe-buffer "~5.2.0"
 
-string_decoder@~1.1.1:
-  version "1.1.1"
-  resolved "https://lovestfs.pkgs.visualstudio.com/_packaging/packages/npm/registry/string_decoder/-/string_decoder-1.1.1.tgz#9cf1611ba62685d7030ae9e4ba34149c3af03fc8"
-  integrity sha1-nPFhG6YmhdcDCunkujQUnDrwP8g=
-  dependencies:
-    safe-buffer "~5.1.0"
-
-strip-ansi@6.0.0:
-  version "6.0.0"
-  resolved "https://lovestfs.pkgs.visualstudio.com/_packaging/packages/npm/registry/strip-ansi/-/strip-ansi-6.0.0.tgz#0b1571dd7669ccd4f3e06e14ef1eed26225ae532"
-  integrity sha1-CxVx3XZpzNTz4G4U7x7tJiJa5TI=
-  dependencies:
-    ansi-regex "^5.0.0"
-
-strip-ansi@^6.0.0, strip-ansi@^6.0.1:
+strip-ansi@6.0.1, strip-ansi@^6.0.0, strip-ansi@^6.0.1:
   version "6.0.1"
   resolved "https://lovestfs.pkgs.visualstudio.com/_packaging/packages/npm/registry/strip-ansi/-/strip-ansi-6.0.1.tgz#9e26c63d30f53443e9489495b2105d37b67a85d9"
   integrity sha1-nibGPTD1NEPpSJSVshBdN7Z6hdk=
@@ -3024,10 +2914,10 @@ strip-json-comments@^3.1.0, strip-json-comments@^3.1.1:
   resolved "https://lovestfs.pkgs.visualstudio.com/_packaging/packages/npm/registry/strip-json-comments/-/strip-json-comments-3.1.1.tgz#31f1281b3832630434831c310c01cccda8cbe006"
   integrity sha1-MfEoGzgyYwQ0gxwxDAHMzajL4AY=
 
-styled-jsx@4.0.1:
-  version "4.0.1"
-  resolved "https://lovestfs.pkgs.visualstudio.com/_packaging/packages/npm/registry/styled-jsx/-/styled-jsx-4.0.1.tgz#ae3f716eacc0792f7050389de88add6d5245b9e9"
-  integrity sha1-rj9xbqzAeS9wUDid6IrdbVJFuek=
+styled-jsx@5.0.0-beta.3:
+  version "5.0.0-beta.3"
+  resolved "https://lovestfs.pkgs.visualstudio.com/_packaging/packages/npm/registry/styled-jsx/-/styled-jsx-5.0.0-beta.3.tgz#400d16179b5dff10d5954ab8be27a9a1b7780dd2"
+  integrity sha1-QA0WF5td/xDVlUq4viepobd4DdI=
   dependencies:
     "@babel/plugin-syntax-jsx" "7.14.5"
     "@babel/types" "7.15.0"
@@ -3086,17 +2976,12 @@ text-table@^0.2.0:
   resolved "https://lovestfs.pkgs.visualstudio.com/_packaging/packages/npm/registry/text-table/-/text-table-0.2.0.tgz#7f5ee823ae805207c00af2df4a84ec3fcfa570b4"
   integrity sha1-f17oI66AUgfACvLfSoTsP8+lcLQ=
 
-timers-browserify@2.0.12, timers-browserify@^2.0.4:
+timers-browserify@2.0.12:
   version "2.0.12"
   resolved "https://lovestfs.pkgs.visualstudio.com/_packaging/packages/npm/registry/timers-browserify/-/timers-browserify-2.0.12.tgz#44a45c11fbf407f34f97bccd1577c652361b00ee"
   integrity sha1-RKRcEfv0B/NPl7zNFXfGUjYbAO4=
   dependencies:
     setimmediate "^1.0.4"
-
-to-arraybuffer@^1.0.0:
-  version "1.0.1"
-  resolved "https://lovestfs.pkgs.visualstudio.com/_packaging/packages/npm/registry/to-arraybuffer/-/to-arraybuffer-1.0.1.tgz#7d229b1fcc637e466ca081180836a7aabff83f43"
-  integrity sha1-fSKbH8xjfkZsoIEYCDanqr/4P0M=
 
 to-fast-properties@^2.0.0:
   version "2.0.0"
@@ -3122,11 +3007,6 @@ tr46@^1.0.1:
   dependencies:
     punycode "^2.1.0"
 
-ts-pnp@^1.1.6:
-  version "1.2.0"
-  resolved "https://lovestfs.pkgs.visualstudio.com/_packaging/packages/npm/registry/ts-pnp/-/ts-pnp-1.2.0.tgz#a500ad084b0798f1c3071af391e65912c86bca92"
-  integrity sha1-pQCtCEsHmPHDBxrzkeZZEshrypI=
-
 tsconfig-paths@^3.11.0, tsconfig-paths@^3.9.0:
   version "3.11.0"
   resolved "https://lovestfs.pkgs.visualstudio.com/_packaging/packages/npm/registry/tsconfig-paths/-/tsconfig-paths-3.11.0.tgz#954c1fe973da6339c78e06b03ce2e48810b65f36"
@@ -3148,11 +3028,6 @@ tsutils@^3.21.0:
   integrity sha1-tIcX05TOpsHglpg+7Vjp1hcVtiM=
   dependencies:
     tslib "^1.8.1"
-
-tty-browserify@0.0.0:
-  version "0.0.0"
-  resolved "https://lovestfs.pkgs.visualstudio.com/_packaging/packages/npm/registry/tty-browserify/-/tty-browserify-0.0.0.tgz#a157ba402da24e9bf957f9aa69d524eed42901a6"
-  integrity sha1-oVe6QC2iTpv5V/mqadUk7tQpAaY=
 
 tty-browserify@0.0.1:
   version "0.0.1"
@@ -3198,14 +3073,6 @@ uri-js@^4.2.2:
   dependencies:
     punycode "^2.1.0"
 
-url@^0.11.0:
-  version "0.11.0"
-  resolved "https://lovestfs.pkgs.visualstudio.com/_packaging/packages/npm/registry/url/-/url-0.11.0.tgz#3838e97cfc60521eb73c525a8e55bfdd9e2e28f1"
-  integrity sha1-ODjpfPxgUh63PFJajlW/3Z4uKPE=
-  dependencies:
-    punycode "1.3.2"
-    querystring "0.2.0"
-
 use-subscription@1.5.1:
   version "1.5.1"
   resolved "https://lovestfs.pkgs.visualstudio.com/_packaging/packages/npm/registry/use-subscription/-/use-subscription-1.5.1.tgz#73501107f02fad84c6dd57965beb0b75c68c42d1"
@@ -3213,17 +3080,10 @@ use-subscription@1.5.1:
   dependencies:
     object-assign "^4.1.1"
 
-util-deprecate@^1.0.1, util-deprecate@~1.0.1:
+util-deprecate@^1.0.1:
   version "1.0.2"
   resolved "https://lovestfs.pkgs.visualstudio.com/_packaging/packages/npm/registry/util-deprecate/-/util-deprecate-1.0.2.tgz#450d4dc9fa70de732762fbd2d4a28981419a0ccf"
   integrity sha1-RQ1Nyfpw3nMnYvvS1KKJgUGaDM8=
-
-util@0.10.3:
-  version "0.10.3"
-  resolved "https://lovestfs.pkgs.visualstudio.com/_packaging/packages/npm/registry/util/-/util-0.10.3.tgz#7afb1afe50805246489e3db7fe0ed379336ac0f9"
-  integrity sha1-evsa/lCAUkZInj23/g7TeTNqwPk=
-  dependencies:
-    inherits "2.0.1"
 
 util@0.12.4, util@^0.12.0:
   version "0.12.4"
@@ -3237,13 +3097,6 @@ util@0.12.4, util@^0.12.0:
     safe-buffer "^5.1.2"
     which-typed-array "^1.1.2"
 
-util@^0.11.0:
-  version "0.11.1"
-  resolved "https://lovestfs.pkgs.visualstudio.com/_packaging/packages/npm/registry/util/-/util-0.11.1.tgz#3236733720ec64bb27f6e26f421aaa2e1b588d61"
-  integrity sha1-MjZzNyDsZLsn9uJvQhqqLhtYjWE=
-  dependencies:
-    inherits "2.0.3"
-
 uuid@^8.3.2:
   version "8.3.2"
   resolved "https://lovestfs.pkgs.visualstudio.com/_packaging/packages/npm/registry/uuid/-/uuid-8.3.2.tgz#80d5b5ced271bb9af6c445f21a1a04c606cefbe2"
@@ -3254,12 +3107,7 @@ v8-compile-cache@^2.0.3:
   resolved "https://lovestfs.pkgs.visualstudio.com/_packaging/packages/npm/registry/v8-compile-cache/-/v8-compile-cache-2.3.0.tgz#2de19618c66dc247dcfb6f99338035d8245a2cee"
   integrity sha1-LeGWGMZtwkfc+2+ZM4A12CRaLO4=
 
-val-loader@^4.0.0:
-  version "4.0.0"
-  resolved "https://lovestfs.pkgs.visualstudio.com/_packaging/packages/npm/registry/val-loader/-/val-loader-4.0.0.tgz#c5ccf8abfe486de412d2cd59fa56deb49d44ec8d"
-  integrity sha1-xcz4q/5IbeQS0s1Z+lbetJ1E7I0=
-
-vm-browserify@1.1.2, vm-browserify@^1.0.1:
+vm-browserify@1.1.2:
   version "1.1.2"
   resolved "https://lovestfs.pkgs.visualstudio.com/_packaging/packages/npm/registry/vm-browserify/-/vm-browserify-1.1.2.tgz#78641c488b8e6ca91a75f511e7a3b32a86e5dda0"
   integrity sha1-eGQcSIuObKkadfUR56OzKobl3aA=
@@ -3271,6 +3119,11 @@ watchpack@2.1.1:
   dependencies:
     glob-to-regexp "^0.4.1"
     graceful-fs "^4.1.2"
+
+web-streams-polyfill@3.0.3:
+  version "3.0.3"
+  resolved "https://lovestfs.pkgs.visualstudio.com/_packaging/packages/npm/registry/web-streams-polyfill/-/web-streams-polyfill-3.0.3.tgz#f49e487eedeca47a207c1aee41ee5578f884b42f"
+  integrity sha1-9J5Ifu3spHogfBruQe5VePiEtC8=
 
 webidl-conversions@^4.0.2:
   version "4.0.2"
@@ -3326,7 +3179,7 @@ wrappy@1:
   resolved "https://lovestfs.pkgs.visualstudio.com/_packaging/packages/npm/registry/wrappy/-/wrappy-1.0.2.tgz#b5243d8f3ec1aa35f1364605bc0d1036e30ab69f"
   integrity sha1-tSQ9jz7BqjXxNkYFvA0QNuMKtp8=
 
-xtend@^4.0.0, xtend@^4.0.2:
+xtend@^4.0.2:
   version "4.0.2"
   resolved "https://lovestfs.pkgs.visualstudio.com/_packaging/packages/npm/registry/xtend/-/xtend-4.0.2.tgz#bb72779f5fa465186b1f438f674fa347fdb5db54"
   integrity sha1-u3J3n1+kZRhrH0OPZ0+jR/2121Q=
