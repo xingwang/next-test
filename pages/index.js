@@ -2,6 +2,7 @@ import { useState } from "react";
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import confetti from 'https://cdn.skypack.dev/canvas-confetti'
 
 const fetcher = async () => {
   try {
@@ -23,13 +24,14 @@ export default function Home() {
   const [loading, setLoading] = useState("");
   const [errorMessage, setErrorMessage] = useState("");
   const [status, setStatus] = useState([]);
-  const [buttonText, setButtonText] = useState("Check...");
+  const [buttonText, setButtonText] = useState("Check now");
 
   const onCheck = async () => {
     try {
       setLoading("Loading... please wait");
       setShowStatus(false)
       const currentStatus = await fetcher();
+      confetti();
       setLoading("");
       setShowStatus(true)
       setStatus(currentStatus);
