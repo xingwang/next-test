@@ -4,5 +4,26 @@
   "main": "index.js",
   "repository": "git@github.com:xingwang/next-test.git",
   "author": "Xing Wang <cabbit007x@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "prebuild": "next telemetry disable",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start -p $PORT",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "got": "^11.8.2",
+    "lodash": "^4.17.21",
+    "next": "11.1.2",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "eslint": "7.32.0",
+    "eslint-config-next": "11.1.2",
+    "json-loader": "^0.5.7",
+    "val-loader": "^4.0.0"
+  }
 }
