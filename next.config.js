@@ -1,7 +1,4 @@
 module.exports = {
   reactStrictMode: true,
-  swcMinify: true,
-  experimental: {
-    urlImports: ['https://cdn.skypack.dev']
-  }
-}
+  // swcMinify is now enabled by default in Next.js 15
+};
